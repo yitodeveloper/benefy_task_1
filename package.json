@@ -1,0 +1,32 @@
+{
+  "name": "benefy_task_1",
+  "version": "1.0.0",
+  "description": "To-do list API made in expressJS (API REST)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yitodeveloper/benefy_task_1.git"
+  },
+  "keywords": [
+    "todolist"
+  ],
+  "author": "Rodrigo Ramirez <yitodeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yitodeveloper/benefy_task_1/issues"
+  },
+  "homepage": "https://github.com/yitodeveloper/benefy_task_1#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
